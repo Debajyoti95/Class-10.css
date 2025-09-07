@@ -1,0 +1,42 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: aliceblue;
+}
+h1{
+    color: aqua;
+}
+a{
+    color:blue
+    text-decoration:none
+}
+a:hover{
+    color:red
+}
+ul>li {
+    font-weight: bold;
+}
+h1+p{
+    background-color: darkgoldenrod;
+    padding: 10px;
+    border-radius: 5px;
+}
+ul li:hover{
+    color: green;
+}
+ul li:nth-child(1){
+    background-color: darkslategray;
+}
+p:not(:first-of-type){
+    text-decoration: underline;
+}
+ul li::before{
+    content:"🚗"
+}
+a::after{
+    content:"🎁"
+}
+p::first-letter{
+    font-size: 200%;
+    color: brown;
+}
